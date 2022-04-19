@@ -41,5 +41,5 @@ Users should be able to:
 ### Built with
 
 - HTML5
-- CSS
+- Sass
 - JavaScript
