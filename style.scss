@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+// 1. Config files and helpers
+@import 'sass/abstract/colors';
+@import 'sass/abstract/type';
+;
+// 2. Vendor
+@import 'sass/vendor/normalize';
+
+
+
+// 3. Base styles
+@import 'sass/base/base';
+@import 'sass/base/typography';
+
+// 4. Layout
+@import 'sass/layout/form';
+@import 'sass/layout/mediaqueries';
+
+// 5. Components
+@import 'sass/components/buttons';

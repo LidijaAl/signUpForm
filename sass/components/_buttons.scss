@@ -1,0 +1,34 @@
+@mixin button {
+    color:$white-opaque;
+    border: none;
+    border-radius: 8px;
+    font-size: $font-size-sm;
+    line-height: $line-height;
+    letter-spacing: 1px;
+    width: 85%;
+    cursor: pointer;
+}
+
+#try-btn {
+    @include button;
+    text-align: center;
+    background-color: $accent;
+    padding: 22px 40px;
+    box-shadow: 0 5px #64646448;
+    width: 95%;
+    margin: 0 3%;
+     span{
+        color: $white;
+        font-weight: $font-semibold;
+     }
+}
+
+#claim-btn {
+  @include button;
+  background-color: $secondary;
+  font-weight: $font-semibold;
+  padding: 17px;
+  box-shadow: 0 -5px inset #64646448;
+  margin: 3% 8%;
+}
+

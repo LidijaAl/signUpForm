@@ -1,0 +1,549 @@
+@media (min-width: 350px) {
+
+    .container {
+        margin-top: 12%;
+
+        .description {
+            margin-bottom: 8%;
+
+
+            p {
+                font-size: $font-size-sm;
+            }
+        }
+    }
+
+    button#try-btn {
+        font-size: $font-size-sm;
+        padding: 5% 20%;
+        margin: 1% 2%;
+        max-width: 100%;
+    }
+
+    #fname {
+        margin-top: 5%;
+        padding: 4%;
+        font-size: $font-size-xs;
+    }
+
+
+    #lname,
+    #email,
+    #password {
+        margin-top: 2%;
+        padding: 4%;
+        font-size: $font-size-xs;
+    }
+
+    .signUp-form .error-icon {
+        background-size: 1rem;
+    }
+
+    .signUp-form .error {
+        font-size: $font-size-xs;
+    }
+
+    button#claim-btn {
+        width: 85%;
+        font-size: $font-size-sm;
+        padding: 5%;
+        margin-bottom: 0;
+        margin-top: 5%;
+    }
+
+    #termsAndServices {
+        font-size: $font-size-xxs;
+    }
+
+}
+
+@media (min-width: 400px) {
+
+    .container {
+        margin-top: 15%;
+        max-width: 75%;
+
+        .description {
+            margin-bottom: 8%;
+
+            h1 {
+                max-width: 85%;
+                margin: auto;
+            }
+
+
+            p {
+                font-size: $font-size-m;
+                max-width: 90%;
+                margin: 3% auto;
+            }
+        }
+    }
+
+    button#try-btn {
+        font-size: $font-size-sm;
+        padding: 4% 20%;
+        margin: 1% 2%;
+        max-width: 100%;
+    }
+
+    #fname {
+        margin-top: 5%;
+        padding: 5%;
+        font-size: $font-size-sm;
+    }
+
+    #lname,
+    #email,
+    #password {
+        margin-top: 3%;
+        padding: 5%;
+        font-size: $font-size-sm;
+    }
+
+
+}
+
+
+@media (min-width: 540px) {
+
+    .container {
+        min-width: 100%;
+        margin-top: 3%;
+        padding: 0;
+
+        .description {
+            max-width: 85%;
+            margin: auto;
+
+            h1 {
+                font-size: $font-size-big;
+                max-width: 60%;
+                margin: auto;
+            }
+
+            p {
+                font-size: $font-size-lg;
+            }
+        }
+    }
+
+    .secondary-container {
+        max-width: 80%;
+        margin: auto;
+
+        button#try-btn {
+            font-size: $font-size-m;
+            padding: 2% 24%;
+            margin: 1% 2%;
+            max-width: 100%;
+        }
+
+        .signUp-form {
+
+            max-width: 100%;
+            margin: 3% auto;
+
+            input[type=text] {
+                margin-bottom: 0;
+                padding: 3%;
+                font-size: $font-size-lg;
+
+            }
+
+            #fname {
+                margin-top: 6%;
+                margin-bottom: 0;
+                padding: 3%;
+                font-size: $font-size-m;
+            }
+
+            #lname,
+            #email,
+            #password {
+                margin-top: 4%;
+                margin-bottom: 0;
+                padding: 3%;
+                font-size: $font-size-m;
+            }
+
+
+            .error-icon {
+                background-size: 1.2rem;
+            }
+
+            .error {
+                font-size: $font-size-sm;
+            }
+
+            #claim-btn {
+                width: 85%;
+                font-size: $font-size-m;
+                padding: 4%;
+
+                margin-bottom: 0;
+                margin-top: 7%;
+            }
+
+            #error-text-fname {
+                font-size: $font-size-sm;
+                opacity: 0.8;
+                width: 70%;
+            }
+        }
+    }
+
+}
+
+
+@media (min-width: 660px) {
+
+    .container {
+        min-width: 80%;
+        margin-top: 5%;
+        padding: 0;
+
+        .description {
+            max-width: 85%;
+            margin: auto;
+
+            h1 {
+                font-size: $font-size-big;
+                max-width: 60%;
+                margin: auto;
+            }
+
+            p {
+                font-size: $font-size-lg;
+            }
+        }
+    }
+
+    .secondary-container {
+        max-width: 80%;
+        margin: auto;
+
+        button#try-btn {
+            font-size: $font-size-m;
+            padding: 2% 24%;
+            margin: 1% 2%;
+            max-width: 100%;
+        }
+
+        .signUp-form {
+
+            max-width: 100%;
+            margin: 3% auto;
+
+            input[type=text] {
+                margin-bottom: 0;
+                padding: 3%;
+                font-size: $font-size-lg;
+
+            }
+
+            #fname {
+                margin-top: 6%;
+                margin-bottom: 0;
+                padding: 3%;
+                font-size: $font-size-m;
+            }
+
+            #lname,
+            #email,
+            #password {
+                margin-top: 4%;
+                margin-bottom: 0;
+                padding: 3%;
+                font-size: $font-size-m;
+            }
+
+
+            .error-icon {
+                background-size: 1.4rem;
+            }
+
+            .error {
+                font-size: $font-size-m;
+            }
+
+            #claim-btn {
+                width: 85%;
+                font-size: $font-size-m;
+                padding: 3%;
+
+                margin-bottom: 0;
+                margin-top: 7%;
+            }
+
+            #error-text-fname {
+                font-size: $font-size-sm;
+                opacity: 0.8;
+                width: 70%;
+            }
+        }
+    }
+}
+
+
+
+@media (min-width: 900px) {
+
+    .main {
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 5rem;
+        min-width: 90%;
+        justify-content: center;
+        margin: 25% auto;
+
+
+        .description {
+            width: 40%;
+            padding: 0;
+            margin: 0;
+            h1 {
+
+                font-size: $font-size-bigger;
+                text-align: left;
+                min-width: 90%;
+            }
+
+            p {
+
+                font-size: 1.2rem;
+                text-align: left;
+            }
+        }
+
+        .secondary-container {
+            min-width: 45%;
+            margin:0;
+        }
+    }
+
+    button#try-btn {
+        font-size: $font-size-lg;
+        max-width: 100%;
+        padding: 3%;
+
+    }
+
+    #fname {
+        margin-top: 8%;
+        margin-bottom: 0;
+        padding: 4%;
+        font-size: $font-size-lg;
+    }
+
+    #lname,
+    #email,
+    #password {
+        margin-top: 4%;
+        margin-bottom: 0;
+        padding: 4%;
+        font-size: $font-size-lg;
+    }
+
+    #error-text-fname {
+        width: 100%;
+        font-size: $font-size-sm;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+
+    .container {
+        min-width: 90%;
+        margin: 10% auto;
+        padding: 0;
+
+        .description {
+            max-width: 70%;
+            margin: auto;
+            margin-left: 0;
+
+            h1 {
+                font-size: 2.8rem;
+                max-width: 60%;
+                text-align: left;
+                margin-left: 0;
+            }
+
+            p {
+                font-size: $font-size-lg;
+                min-width: 120%;
+            }
+        }
+        .secondary-container {
+            min-width: 50%;
+            margin: 0;
+            margin-right: -1%;
+    
+            button#try-btn {
+                font-size: $font-size-lg;
+                padding: 3.5% 10%;
+                margin: 1% 2%;
+                max-width: 100%;
+            }
+    
+            .signUp-form {
+    
+                max-width: 100%;
+                margin: 3% auto;
+    
+                input[type=text] {
+                    margin-bottom: 0;
+                    padding: 4%;
+                    font-size: $font-size-big;
+    
+                }
+    
+                #fname {
+                    margin-top: 8%;
+                    margin-bottom: 0;
+                    padding: 4%;
+                    font-size: $font-size-lg;
+                }
+    
+                #lname,
+                #email,
+                #password {
+                    margin-top: 6%;
+                    margin-bottom: 0;
+                    padding: 4%;
+                    font-size: $font-size-lg;
+                }
+    
+    
+                .error-icon {
+                    background-size: 2rem;
+                }
+    
+                .error {
+                    font-size: $font-size-lg;
+                }
+    
+                #claim-btn {
+                    width: 85%;
+                    font-size: $font-size-lg;
+                    padding: 3%;
+                    margin-bottom: 0;
+                    margin-top: 7%;
+                }
+    
+                #error-text-fname {
+                    font-size: $font-size-sm;
+                    opacity: 0.8;
+                    width: 70%;
+                }
+            }
+        }
+    }
+
+    
+}
+   
+
+@media (min-width: 1630px) {
+    .container {
+        min-width: 85%;
+        margin: 7% auto;
+        padding: 0;
+
+        .description {
+            max-width: 70%;
+            margin: 13% auto;
+            margin-left: 0;
+
+            h1 {
+                font-size: 3rem;
+                min-width: 70%;
+                text-align: left;
+                margin-left: 0;
+            }
+
+            p {
+                font-size: $font-size-big;
+                min-width: 120%;
+            }
+        }
+        .secondary-container {
+            min-width: 40%;
+            margin: 0;
+            margin-right: -1%;
+           
+    
+            button#try-btn {
+                font-size: $font-size-lg;
+                padding: 3.5% 10%;
+                margin: 1% 2%;
+                max-width: 100%;
+            }
+    
+            .signUp-form {
+    
+                max-width: 100%;
+                margin: 3% auto;
+    
+                input[type=text] {
+                    margin-bottom: 0;
+                    padding: 4%;
+                    font-size: $font-size-big;
+    
+                }
+    
+                #fname {
+                    margin-top: 8%;
+                    margin-bottom: 0;
+                    padding: 3%;
+                    font-size: $font-size-lg;
+                }
+    
+                #lname,
+                #email,
+                #password {
+                    margin-top: 4%;
+                    margin-bottom: 0;
+                    padding: 3%;
+                    font-size: $font-size-lg;
+                }
+    
+    
+                .error-icon {
+                    background-size: 2rem;
+                }
+    
+                .error {
+                    font-size: $font-size-lg;
+                }
+    
+                #claim-btn {
+                    width: 85%;
+                    font-size: $font-size-lg;
+                    padding: 3%;
+                    margin-bottom: 0;
+                    margin-top: 5%;
+                }
+    
+                
+            }
+            #termsAndServices  {
+                font-size: $font-size-m;
+                opacity: 0.8;
+                width: 70%;
+            }
+        }
+    }
+
+    
+}
+

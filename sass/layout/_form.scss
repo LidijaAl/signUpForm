@@ -1,0 +1,119 @@
+@mixin warnings {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    color: $primary;
+    font-size: 16px;
+}
+
+.signUp-form {
+    background-color: white;
+    width: 95%;
+    margin: 5% auto;
+    border-radius: 8px;
+    box-shadow: 0 8px #64646448;
+    position: relative;
+
+    input[type=text] {
+        width: 85%;
+        margin: 2% 8%;
+        padding: 5%;
+        border: 1px solid rgb(223, 221, 221);
+        border-radius: 5px;
+        font-weight: $font-semibold;
+        font-size: $font-size-sm;
+        font-family: $font-stack;
+
+    }
+
+    input[type=text]:first-child {
+        margin-top: 10%;
+    }
+
+    input[type=password] {
+        width: 85%;
+        margin: 2% 8%;
+        padding: 5%;
+        border: 1px solid rgb(223, 221, 221);
+        border-radius: 5px;
+        font-weight: $font-semibold;
+        font-size: $font-size-sm;
+        font-family: $font-stack;
+
+    }
+
+    input[type=password]:first-child {
+        margin-top: 10%;
+    }
+    input[type=email] {
+        width: 85%;
+        margin: 2% 8%;
+        padding: 5%;
+        border: 1px solid rgb(223, 221, 221);
+        border-radius: 5px;
+        font-weight: $font-semibold;
+        font-size: $font-size-sm;
+        font-family: $font-stack;
+
+    }
+
+    input[type=email]:first-child {
+        margin-top: 10%;
+    }
+
+    .error-icon {
+        background-image: url("./images/icon-error.svg");
+        background-repeat: no-repeat;
+        background-position: right 1rem center;
+        background-size: 1.3rem;
+        
+   
+    }
+
+       .error{
+           color:$primary;
+           text-align: right;
+           padding: 0;
+           margin-right: 8%;
+           display: none;
+           font-size: $font-size-sm;
+       }
+
+       .emailError{
+        color:$primary;
+        text-align: right;
+        padding: 0;
+        margin-right: 8%;
+        display: none;
+        font-size: $font-size-sm;
+       }
+
+       .visible {
+           display: block;
+       }
+       inpu#email.error-icon::placeholder{
+        color: #ff534f;
+
+       }
+    p {
+        font-size: $font-size-xs;
+        text-align: $align-center;
+        width: 65%;
+        margin: auto;
+        padding: 5px 0 15px 0;
+        line-height: 2;
+    }
+
+    a {
+        color: $primary;
+        text-decoration: none;
+        font-weight: $font-semibold;
+    }
+    input:blur::placeholder{
+        color: "red";
+    }
+
+    #termsAndServices{
+        opacity: 0.7;
+    }
+}
